@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B2D42;
+    padding: 1em;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    margin-right: 2em;
+}
+
+.item p, svg {
+    color: #E7ECEF;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.item p {
+    font-size: 1.3em;
+    font-weight: 400;
+    padding-right: .15em;
+}
+
+.item:hover > p {
+    transition: 0.3s;
+    color: #adb5bd;
+}
+
+.item:hover > svg {
+    transition: 0.3s;
+    color: #adb5bd;
+}
