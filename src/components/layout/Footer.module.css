@@ -1,0 +1,55 @@
+.footer {
+    background-color: #222;
+    color: #E7ECEF;
+    padding: 3em;
+    text-align: center;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social_list li {
+    margin: 0 1em;
+}
+
+.social_list li > svg:hover {
+    color: #adb5bd;
+}
+
+.social_list svg {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.copy {
+    margin-top: 2em;
+}
+
+.copy span {
+    font-weight: bold;
+}
+
+.credits {
+    margin-top: 2em;
+}
+
+.credits a {
+    color: #E7ECEF;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(#adb5bd, #E7ECEF);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+    background-size: 100% 0.1em;
+}
