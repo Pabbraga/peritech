@@ -1,0 +1,46 @@
+.shopping_cart {
+    width: 20em;
+    height: 35em;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF2F4;
+    top: 6em;
+    right: 0;
+    box-shadow: -2px 4px 10px;
+}
+
+.side_to_side {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.side_to_side p {
+    font-weight: bold;
+    color: #E7ECEF;
+}
+
+.title {
+    background-color: #2B2D42;
+}
+
+.title p {
+    font-size: 1.2em;
+}
+
+.list {
+    flex: 1;
+}
+
+.msg p{
+    color: #2B2D42;   
+}
+
+.finish {
+    background-color: #28BB11;
+    cursor: pointer;
+}
+
+.finish:hover {
+    box-shadow: 3px 3px 10px #1c920c inset
+}
