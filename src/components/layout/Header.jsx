@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FaShoppingCart, FaAngleDown } from 'react-icons/fa';
 
 import styles from './Header.module.css';
-import logo from '../../img/logo64.png';
 import Container from './Container';
 import Categories from '../hud/Categories';
 import ShoppingCart from '../hud/ShoppingCart';
@@ -30,7 +29,7 @@ function Header() {
         <header className={styles.header}>
             <Container>
                 <img 
-                    src={logo}
+                    src='./logo64.png'
                     className={styles.logo} 
                     alt="logo quadrada com pontas arredondas de coloração alaranjada com letras T e P em branco na sequência e seccionadas" 
                 />
