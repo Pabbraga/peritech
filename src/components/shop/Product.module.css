@@ -13,9 +13,9 @@
 }
 
 .image {
-    width: 18em;
-    height: 14em;
-    background-color: #ccc;
+    width: 16em;
+    height: 12em;
+    object-fit: contain;
 }
 
 .name {
