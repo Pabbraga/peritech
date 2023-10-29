@@ -1,0 +1,169 @@
+[
+    {
+        "id": 1,
+        "name": "Teclado Básico Slim Laser Usb Pt Tc193bu Multi",
+        "price": "54,25",
+        "category": "keyboard",
+        "imgUrl": "../img/tecladomultislim.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Mouse com Fio Multilaser Mid 1200dpi Conexão USB Cabo de 120cm 3 Botões Textura Fosca Preto - MO255",
+        "price": "19,90",
+        "category": "mouse",
+        "imgUrl": "../img/mousemultipreto.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Suporte De Mesa Para Microfone Mini Pedestal Portátil Mtg025",
+        "price": "32,90",
+        "category": "accessory",
+        "imgUrl": "../img/suportemictomate.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "WebCam Rapoo C200, HD 720p, USB, RA015",
+        "price": "49,99",
+        "category": "webcam",
+        "imgUrl": "../img/webcamrapoo.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Mouse Gamer TGT Bizon S, Rainbow RGB 12000DPI, 6 Botões, Preto, TGT-BIZ-S-RBW",
+        "price": "44,90",
+        "category": "mouse",
+        "imgUrl": "../img/mousetgtbizon.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Fone De Ouvido Bluetooth Pfo01bt Philco - Preto",
+        "price": "149,90",
+        "category": "headphone",
+        "imgUrl": "../img/headsetphilco.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Cabo MD9 Tipo C para Tipo C, 1m, Preto, 9336",
+        "price": "19,90",
+        "category": "cable",
+        "imgUrl": "../img/cabocmd9.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Hub F3 4 Portas USB 3.0, JC-HUB304",
+        "price": "59,99",
+        "category": "cable",
+        "imgUrl": "../img/hubusbf3.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Bright Teclado Mecânico Gamer Compact II Padrão ABNT2, 26 Teclas Anti-Ghosting, Switch Azul, 12 Modos de Iluminação RGB, 88 teclas",
+        "price": "176,47",
+        "category": "keyboard",
+        "imgUrl": "../img/tecladobright.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Suporte para Headset Trust GXT 260 Cendor Preto, T22973",
+        "price": "73,99",
+        "category": "accessory",
+        "imgUrl": "../img/suporteheadsettrust.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Headset Gamer Geonav Thunder Light, Drivers 40mm, RGB, Preto, G3HS01BK",
+        "price": "208,25",
+        "category": "headphone",
+        "imgUrl": "../img/headsetgeonav.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "WebCam PcYes Raza, Full HD 1080P, Preto, FHD-02-35463",
+        "price": "179,90",
+        "category": "webcam",
+        "imgUrl": "../img/webcampcyes.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Mousepad Gamer TGT K50M, Grande 500x500x3mm, Preto, TGT-K50M-GRB01",
+        "price": "22,90",
+        "category": "accessory",
+        "imgUrl": "../img/mousepadtgt.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Mouse Gamer Mancer Lead 2, RGB, 12400DPI, 7 Botoes, Preto, MCR-LEAM2-RGB01",
+        "price": "89,90",
+        "category": "mouse",
+        "imgUrl": "../img/mousemancer.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Cabo HDMI 2.0 Intelbras CHF 2015, 4K Ultra HD 60Hz, 15m, Preto, CHF-2015",
+        "price": "139,90",
+        "category": "cable",
+        "imgUrl": "../img/cabohdmiintelbras.jpeg"
+    },{
+        "id": 16,
+        "name": "Teclado Mecanico Redragon Fizz Pro, RGB, Switch Blue, Preto, K616-RGB-B-PT-BLUE",
+        "price": "269,90",
+        "category": "keyboard",
+        "imgUrl": "../img/tecladoreddragon.jpeg"
+    },
+    {
+        "id": 17,
+        "name": "Webcam Redragon Streaming APEX 2 Full HD 1080p, GW900-1",
+        "price": "269,90",
+        "category": "webcam",
+        "imgUrl": "../img/webcamreddragon.jpeg"
+    },
+    {
+        "id": 18,
+        "name": "Apoio de Pulso Cooler Master WR510-Compact, 300x95x13mm, Preto, WR-510-CRCC1",
+        "price": "32,90",
+        "category": "accessory",
+        "imgUrl": "../img/apoiocooler.jpeg"
+    },
+    {
+        "id": 19,
+        "name": "Fone De Ouvido Headphone Multilaser Preto Pop Ph246",
+        "price": "69,30",
+        "category": "headphone",
+        "imgUrl": "../img/headsetmulti.jpeg"
+    },
+    {
+        "id": 20,
+        "name": "Cabo Adaptador F3 3 in 1 Tipo C Para HDMI 4K + USB 3.0 + Tipo C (pd), JC-TYC-HM31 118",
+        "price": "59,90",
+        "category": "cable",
+        "imgUrl": "../img/caboadaptador.jpeg"
+    },
+    {
+        "id": 21,
+        "name": "Teclado Mecanico Gamer Logitech G413 TKL SE, Led Branco, ABNT2, Preto, 920-010562",
+        "price": "399,90",
+        "category": "keyboard",
+        "imgUrl": "../img/tecladologitech.jpeg"
+    },
+    {
+        "id": 22,
+        "name": "Webcam Intelbras, Full HD 1080p, USB, Preta, CAM-1080p",
+        "price": "249,90",
+        "category": "webcam",
+        "imgUrl": "../img/webcamintelbras.jpeg"
+    },
+    {
+        "id": 23,
+        "name": "Mouse Gamer Cougar Surpassion EX, RGB, 6400DPI, 6 Botoes, Preto, CGR-WOMB-SEX",
+        "price": "199,89",
+        "category": "mouse",
+        "imgUrl": "../img/mousecougar.jpeg"
+    },
+    {
+        "id": 24,
+        "name": "Headset Gamer Astro A10 Gen 2, Drivers 32mm, Preto, 939-002056",
+        "price": "429,90",
+        "category": "headphone",
+        "imgUrl": "../img/headsetastro.jpeg"
+    }
+]
