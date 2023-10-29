@@ -29,7 +29,7 @@ function Header() {
         <header className={styles.header}>
             <Container>
                 <img 
-                    src='./logo64.png'
+                    src='../logo64.png'
                     className={styles.logo} 
                     alt="logo quadrada com pontas arredondas de coloração alaranjada com letras T e P em branco na sequência e seccionadas" 
                 />
