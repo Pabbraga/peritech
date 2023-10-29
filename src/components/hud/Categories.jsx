@@ -1,4 +1,5 @@
 import styles from './Categories.module.css';
+import LinkButton from './LinkButton';
 
 function Categories() {
 
@@ -6,22 +7,22 @@ function Categories() {
         <div className={styles.categories}>
             <ul className={styles.list}>
                 <li className={styles.item}>
-                    <p>Acessórios</p>
+                    <LinkButton to="/category/accessory" text="Acessório"/>
                 </li>
                 <li className={styles.item}>
-                    <p>Teclados</p>
+                    <LinkButton to="/category/keyboard" text="Teclado"/>
                 </li>
                 <li className={styles.item}>
-                    <p>Mouse</p>
+                    <LinkButton to="/category/mouse" text="Mouse"/>
                 </li>
                 <li className={styles.item}>
-                    <p>Câmeras</p>
+                    <LinkButton to="/category/webcam" text="Webcam"/>
                 </li>
                 <li className={styles.item}>
-                    <p>Fones de Ouvido</p>
+                    <LinkButton to="/category/headphone" text="Fones de Ouvido"/>
                 </li>
                 <li className={styles.item}>
-                    <p>Cabos e Adaptadores</p>
+                    <LinkButton to="/category/cable" text="Cabos e Adaptadores"/>
                 </li>
             </ul>
         </div>

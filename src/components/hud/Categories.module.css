@@ -23,9 +23,8 @@
 }
 
 .item {
+    display: flex;
     list-style: none;
-    padding: 1.2em 0;
-    cursor: pointer;
 }
 
 .item:hover {
