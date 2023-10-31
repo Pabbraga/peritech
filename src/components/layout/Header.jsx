@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { FaShoppingCart, FaAngleDown } from 'react-icons/fa';
 
 import styles from './Header.module.css';
@@ -28,11 +29,13 @@ function Header() {
     return(
         <header className={styles.header}>
             <Container>
-                <img 
-                    src='../logo64.png'
-                    className={styles.logo} 
-                    alt="logo quadrada com pontas arredondas de coloração alaranjada com letras T e P em branco na sequência e seccionadas" 
-                />
+                <Link to="/">
+                    <img
+                        src='../logo64.png'
+                        className={styles.logo}
+                        alt="logo quadrada com pontas arredondas de coloração alaranjada com letras T e P em branco na sequência e seccionadas"
+                    />
+                </Link>
                 <ul className={styles.list}>
                     <li className={styles.item} onClick={showCategories}>
                         <p>Categorias</p>
