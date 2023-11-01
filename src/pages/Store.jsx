@@ -26,7 +26,7 @@ function Store() {
             <Banner/>
             <ul className={styles.products_container}>
                 {loadProducts(pageNumber, category).map(item => (
-                    <Product key={item.id} image={item.imgUrl} name={item.name} price={item.price}/>
+                    <Product key={item.id} image={item.imgUrl} name={item.name} price={item.price} to={item.id}/>
                 ))}
                 <Navbar page={pageNumber}/>
             </ul>

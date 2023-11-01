@@ -7,6 +7,10 @@
     transition: box-shadow 0.4s ease 0s;
 }
 
+.product_container a {
+    text-decoration: none;
+}
+
 .product_container:hover {
     box-shadow: 0px 5px 15px #ccc;
     z-index: 1;
