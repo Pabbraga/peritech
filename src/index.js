@@ -4,6 +4,7 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Store from './pages/Store';
 import App from './App';
+import Product from './pages/Product';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "category/:category",
         element: <Store />
+      },
+      {
+        path: "/product/:productId",
+        element: <Product />
       }
     ]
   },
