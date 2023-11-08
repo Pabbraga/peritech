@@ -1,0 +1,90 @@
+.cart_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20em;
+    height: 6em;
+    padding: .5em;
+}
+
+.cart_item:hover {
+    transition: .5s;
+    background-color: #E0E0E0;
+}
+
+.item_image {
+    height: 5em;
+    width: 5em;
+    object-fit: contain;
+}
+
+.item_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 13em;
+}
+
+.item_name {
+    display: flex;
+    height: 2.5em;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.item_name p {
+    font-weight: bold;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+
+.item_control {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item_price p {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1c920c;
+}
+
+.control_button {
+    width: 1.5em;
+    height: 1.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.control_button svg {
+    font-size: 1em;
+}
+
+.item_remove button {
+    background-color: #2B2D42;
+    border-radius: 6px;
+}
+
+.item_remove button:hover {
+    background-color: #383B56;
+}
+
+.item_remove button > svg {
+    color: #E7ECEF;
+}
+
+.item_quantity {
+    display: flex;
+    justify-content: space-between;
+    gap: .5em;
+}
+
+.item_quantity button > svg{
+    color: #2B2D42;
+}
+
+.item_quantity p {
+    font-size: 1.2em;
+    cursor: default;
+}
