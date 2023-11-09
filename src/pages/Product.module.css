@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
     .product_image {
         max-height: 30em;
         max-width: 30em;
@@ -16,15 +16,14 @@
     .price {
         padding: 1em 0;
     }
-    .description {
-        min-width: 92vw;
-    }
 }
 
 .page_container {
-    width: 100%;
-    background-color: #EDF2F4;
-    padding: 2em 1em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 4em 2em;
 }
 
 .product_container {
@@ -37,6 +36,7 @@
 .product_image {
     width: 40em;
     height: 40em;
+    padding: 2em;
     background-color: #fff;
     object-fit: contain;
     justify-content: space-around;
@@ -46,7 +46,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding-bottom: 5em;
 }
 
 .name {
@@ -55,12 +56,14 @@
     font-size: 2em;
     font-weight: bold;
     color: #2b2d42;
+    padding-left: 1em;
 }
 
 .price {
     font-size: 3em;
     font-weight: bold;
     color: #1c920c;
+    padding-left: 1em;
 }
 
 .add_to_cart {
@@ -69,6 +72,18 @@
     border-radius: 20px;
     background-color: #1c920c;
     text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.add_to_cart:hover {
+    transition: .3s;
+    background-color: #19840B;
+}
+
+.add_to_cart:active {
+    transition: .3s;
+    background-color: #125E08;
 }
 
 .add_to_cart p {
@@ -77,26 +92,20 @@
     font-weight: bold;
 }
 
-.more_info {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
 .description {
-    width: 50vw;
-    padding-top: 2em;
-    color: #E7ECEF;
+    color: #2b2d42;
+    width: 90vw;
 }
 
 .description h2 {
     text-align: center;
-    background-color: #2b2d42;
+    padding: .5em 0;
+    background-color: #383b56;
+    color: #E7ECEF;
 }
 
 .description p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
-    padding: 1em;
-    background-color: #383b56;
+    padding: 1em .5em;
 }

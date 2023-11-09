@@ -29,10 +29,8 @@ function Product() {
                         <p>+ Adicionar ao carrinho</p>
                     </button>
                 </div>
-            </section>
-            <section className={styles.more_info}>
                 <div className={styles.description}>
-                    <h2>Descrição</h2>
+                    <h2>Sobre</h2>
                     <p>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Quibusdam numquam illum inventore ea dolor nostrum a fugiat beatae ipsam,
@@ -41,6 +39,9 @@ function Product() {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Beatae sed odit repellendus? Ipsam dolor soluta quas itaque vero optio,
                         nobis hic rem cumque quod, sapiente ad obcaecati eius! Quasi, doloremque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A velit accusantium 
+                        maxime in illo, impedit minima dolorum fugit cupiditate expedita cumque odit 
+                        temporibus soluta, dignissimos nemo similique itaque! Asperiores, voluptatum!
                     </p>
                 </div>
             </section>
