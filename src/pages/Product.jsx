@@ -4,9 +4,13 @@ import storeProducts from '../data/products.json';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+import { useShoppingCart } from '../context/ShoppingCartContext';
+
 function Product() {
     let { productId } = useParams();
     const [product, setProduct] = useState();
+
+    const { increaseCartQuantity } = useShoppingCart();
 
     useEffect(() => {
         const product = storeProducts.filter(product => product.id === parseInt(productId));
@@ -21,9 +25,9 @@ function Product() {
                 <div className={styles.product_info}>
                     <p className={styles.name}>{product?.name}</p>
                     <p className={styles.price}>R$ {product?.price}</p>
-                    <div className={styles.add_to_cart}>
+                    <button className={styles.add_to_cart} onClick={() => increaseCartQuantity(product.id)}>
                         <p>+ Adicionar ao carrinho</p>
-                    </div>
+                    </button>
                 </div>
             </section>
             <section className={styles.more_info}>
