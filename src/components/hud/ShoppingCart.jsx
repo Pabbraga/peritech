@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 import CartItem from './CartItem';
 import styles from './ShoppingCart.module.css';
 
@@ -5,7 +7,11 @@ import { useShoppingCart } from '../../context/ShoppingCartContext';
 
 function ShoppingCart() {
     const { cartItems } = useShoppingCart();
-    const isEmpty = cartItems?false:true;
+    const [isEmpty, setIsEmpty] = useState(true);
+
+    useEffect(() => {
+        setIsEmpty(cartItems.length === 0?true:false);
+    }, [cartItems])
 
     return(
         <div className={styles.shopping_cart}>

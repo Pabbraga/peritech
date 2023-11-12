@@ -8,26 +8,36 @@ import Categories from '../hud/Categories';
 import ShoppingCart from '../hud/ShoppingCart';
 
 function Header() {
+    const [fixed, setFixed] = useState(false);
     const [categories, setCategories] = useState(false);
     const [shoppingCart, setShoppingCart] = useState(false);
-    
+
+    function fixHeader() {
+        if(window.scrollY >= 325) {
+            setFixed(true);
+        } else {
+            setFixed(false);
+        }
+    }
+
     const showCategories = () => setCategories(!categories);
     const showShoppingCart = () => setShoppingCart(!shoppingCart);
     
     useEffect(() => {
-        let handler = (e) => {
+        let hudHandler = (e) => {
             if(e.target.closest('.hud')) {
                 return
             }
             setCategories(false);
             setShoppingCart(false);
         }
-
-        document.addEventListener("mousedown", handler);
+        
+        document.addEventListener("mousedown", hudHandler);
+        document.addEventListener("scroll", fixHeader);
     });
 
     return(
-        <header className={styles.header}>
+        <header className={`${styles.header} ${fixed?styles.fixed:""}`}>
             <Container>
                 <Link to="/">
                     <img

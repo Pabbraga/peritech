@@ -3,6 +3,13 @@
     justify-content: space-between;
     background-color: #2B2D42;
     padding: 1em;
+    z-index: 2;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    transition: all .1s ease-in-out;
 }
 
 .logo {
