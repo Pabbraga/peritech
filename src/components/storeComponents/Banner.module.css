@@ -1,0 +1,87 @@
+.banner_container {
+    display: flex;
+    width: 100%;
+    height: 12em;
+    background-color: #616494;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 12em;
+    object-fit: contain;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    height: 12em;
+    position: relative;
+}
+
+.first {
+    margin-left: -5em;
+}
+
+.manual_navigation {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10em;
+    margin-left: 10em;
+}
+
+.manual_btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.manual_btn:hover {
+    background-color: #fff;
+}
+
+.manual_btn:not(:last-child) {
+    margin-right: 1em;
+}
+
+.radio1:checked ~ .first {
+    margin-left: -5em;
+}
+
+.radio2:checked ~ .first {
+    margin-left: -38em;
+}
+
+.radio3:checked ~ .first {
+    margin-left: -74.5em;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .banner_container {
+        height: 9em;
+    }
+
+    .banner {
+        height: 9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner_container {
+        height: 8em;
+    }
+
+    .banner {
+        height: 8em;
+    }
+}
