@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
 
 import styles from './Store.module.css';
-import Banner from '../components/shop/Banner';
-import Product from '../components/shop/Product';
+import Banner from '../components/storeComponents/Banner';
+import Product from '../components/storeComponents/Product';
 
 import storeProducts from '../data/products.json';
 import Navbar from '../components/layout/Navbar';
