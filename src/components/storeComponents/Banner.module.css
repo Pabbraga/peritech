@@ -85,3 +85,9 @@
         height: 8em;
     }
 }
+
+@media screen and (max-width: 432px) {
+    .banner_container {
+        height: 12em;
+    }
+}
