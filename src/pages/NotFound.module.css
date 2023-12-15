@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1em;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #adb5bd;
+}
+
+.subtitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: #1c1c1c;
+}
+
+.goback_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2d42;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 20px;
+    margin-top: 1em;
+    box-shadow: -1px 1px 3px #1c1c1c;
+}
+
+.goback_button p {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #adb5bd;
+}
+
+.goback_button:hover,
+.goback_button:hover > p {
+    transition: .5s;
+    background-color: #383b56;
+    color: #ccc;
+}
