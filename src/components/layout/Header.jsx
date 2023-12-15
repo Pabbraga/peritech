@@ -28,6 +28,9 @@ function Header() {
             if(e.target.closest('.hud')) {
                 return
             }
+            if(e.target.closest(`.${styles.item}`)) { 
+                return    
+            }
             setCategories(false);
             setShoppingCart(false);
         }
