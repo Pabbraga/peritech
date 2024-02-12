@@ -6,11 +6,12 @@ import Banner from '../components/storeComponents/Banner';
 import Product from '../components/storeComponents/Product';
 
 import storeProducts from '../data/products.json';
-import Navbar from '../components/layout/Navbar';
+import PaginationBar from '../components/layout/PaginationBar';
 import NotFound from './NotFound';
 
 function Store() {
     const [err, setErr] = useState(false);
+    let totalPages = Math.ceil(Object.keys(storeProducts).length / 16);
     let { pageNumber, category } = useParams();
 
     const loadProducts = (page = 1, category = null) => {
@@ -21,6 +22,7 @@ function Store() {
 
         if(category) {
             items = items.filter(product => product.category === category);
+            totalPages = Math.ceil(Object.keys(items).length / 16);
         }
 
         items = items.slice(firstItem, lastItem);
@@ -43,7 +45,7 @@ function Store() {
                         {loadProducts(pageNumber, category).map(item => (
                             <Product key={item.id} image={item.imgUrl} name={item.name} price={item.price} to={item.id}/>
                         ))}
-                        <Navbar page={pageNumber}/>
+                        <PaginationBar currentPage={pageNumber} totalPages={totalPages}/>
                     </ul>
                 </div>
             } 
